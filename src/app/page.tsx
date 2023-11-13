@@ -3,46 +3,71 @@
 
 export default function Home() {
   return (
-    <div className="text-gray-800 bg-gray-200 p-10 m-10">
-      <div className="flex bg-white p-10 m-10 shadow-2xl justify-around flex-wrap">
-        <div className="text-center px-6 py-4">
-          <img
-            className="w-32 h-32 object-cover rounded-full object-top"
-            src="https://images.pexels.com/photos/7242908/pexels-photo-7242908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150"
-            alt="photo1"
-          />
-          <h3 className="font-bold text-xl">Alexa Kardi</h3>
-          <p className="text-sm text-gray-600">Founder and CEO</p>
-        </div>
-        <div className="text-center px-6 py-4">
-          <img
-            className="w-32 h-32 object-cover rounded-full object-top"
-            src=" https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150"
-            alt=""
-          />
-          <h3 className="font-bold text-xl">Tavell Monroe</h3>
-          <p className="text-sm text-gray-600">Web Developer</p>
-        </div>
-        <div className="text-center px-6 py-4">
-          <img
-            className="w-32 h-32 object-cover rounded-full object-top"
-            src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150n bbbbbbbb  "
-            alt="photo2"
-          />
-          <h3 className="font-bold text-xl">Adale Smith</h3>
-          <p className="text-sm text-gray-600">Marketing Specialist</p>
-        </div>
-        <div className="text-center px-6 py-4">
-          <img
-            className="w-32 h-32 object-cover rounded-full object-top"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=300"
-            alt="photo2"
-          />
-          <h3 className="font-bold text-xl">Thomas Mason</h3>
-          <p className="text-sm text-gray-600">UX Designer</p>
-        </div>
+    <div className="flex h-screen text-gray-800 bg-gray-200 justify-center">
+      <div className="flex flex-col p-10 my-40 bg-white shadow-2xl rounded-2xl gap-5 justify-center">
+        <button className=" bg-blue-500 font-bold text-white p-1 rounded-md w-80">
+          Login
+        </button>
+        <button className="font-bold p-1 rounded-md w-80 border border-cyan-500 flex-grow">
+          Create Account
+        </button>
       </div>
     </div>
+
+    // <div className="flex w-screen h-screen text-gray-800 bg-gray-200">
+    //   <div className=" flex items-center px-6 py-4 bg-white shadow-2xl rounded-2xl gap-5 m-auto">
+    //     <img
+    //       className="w-32 h-32 object-cover rounded-full object-top"
+    //       src="https://images.pexels.com/photos/7242908/pexels-photo-7242908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150"
+    //       alt="photo1"
+    //     />
+    //     <div>
+    //       <h3 className="font-bold text-xl">Alexa Kardi</h3>
+    //       <p className="text-sm text-gray-600">Founder and CEO</p>
+    //     </div>
+    //   </div>
+    // </div>
+
+    // <div className="text-gray-800 bg-gray-200 p-10 m-10">
+    //   <div className="flex bg-white p-10 m-10 shadow-2xl justify-around flex-wrap">
+    //     <div className="text-center px-6 py-4">
+    //       <img
+    //         className="w-32 h-32 object-cover rounded-full object-top"
+    //         src="https://images.pexels.com/photos/7242908/pexels-photo-7242908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150"
+    //         alt="photo1"
+    //       />
+    //       <h3 className="font-bold text-xl">Alexa Kardi</h3>
+    //       <p className="text-sm text-gray-600">Founder and CEO</p>
+    //     </div>
+    //     <div className="text-center px-6 py-4">
+    //       <img
+    //         className="w-32 h-32 object-cover rounded-full object-top"
+    //         src=" https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150"
+    //         alt=""
+    //       />
+    //       <h3 className="font-bold text-xl">Tavell Monroe</h3>
+    //       <p className="text-sm text-gray-600">Web Developer</p>
+    //     </div>
+    //     <div className="text-center px-6 py-4">
+    //       <img
+    //         className="w-32 h-32 object-cover rounded-full object-top"
+    //         src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150n bbbbbbbb  "
+    //         alt="photo2"
+    //       />
+    //       <h3 className="font-bold text-xl">Adale Smith</h3>
+    //       <p className="text-sm text-gray-600">Marketing Specialist</p>
+    //     </div>
+    //     <div className="text-center px-6 py-4">
+    //       <img
+    //         className="w-32 h-32 object-cover rounded-full object-top"
+    //         src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=300"
+    //         alt="photo2"
+    //       />
+    //       <h3 className="font-bold text-xl">Thomas Mason</h3>
+    //       <p className="text-sm text-gray-600">UX Designer</p>
+    //     </div>
+    //   </div>
+    // </div>
 
     // <div class="flex justify-between">
     //   <div class="w-[200px] m-3 p-6 bg-blue-100 rounded-lg">
