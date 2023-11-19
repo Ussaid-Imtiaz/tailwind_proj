@@ -3,16 +3,88 @@
 
 export default function Home() {
   return (
-    <div className="flex h-screen text-gray-800 bg-gray-200 justify-center">
-      <div className="flex flex-col p-10 my-40 bg-white shadow-2xl rounded-2xl gap-5 justify-center">
-        <button className=" bg-blue-500 font-bold text-white p-1 rounded-md w-80">
-          Login
-        </button>
-        <button className="font-bold p-1 rounded-md w-80 border border-cyan-500 flex-grow">
-          Create Account
-        </button>
-      </div>
+    // Assignment - Make Portfolio
+
+<div className="w-[1440px] h-[832px] relative bg-white">
+  <div className="w-[1440px] h-[397px] left-0 top-0 absolute">
+    <div className="w-[1440px] h-[397px] left-0 top-0 absolute bg-violet-700" />
+    <div className="w-[751px] h-[62.31px] left-[344px] top-[88.45px] absolute text-center text-slate-50 text-5xl font-extrabold font-['Inter'] leading-[62.40px]">Simple pricing for your business</div>
+    <div className="w-[604px] h-[32.16px] left-[418px] top-[166.84px] absolute opacity-80 text-center text-slate-50 text-2xl font-medium font-['Inter'] leading-loose">Plans that are carefully crafted to suit your business.</div>
+  </div>
+  <div className="w-[994px] h-[337px] left-[220px] top-[256px] absolute">
+    <div className="w-[994px] h-[336px] left-0 top-0 absolute bg-white rounded-xl shadow" />
+    <div className="left-[106px] top-[58px] absolute text-center text-gray-900 text-2xl font-extrabold font-['Inter'] leading-loose">Premium PRO</div>
+    <div className="w-[282px] left-[46px] top-[174px] absolute text-center text-gray-900 text-lg font-medium font-['Inter'] leading-7">billed just once</div>
+    <div className="left-[109px] top-[106px] absolute text-gray-900 text-6xl font-extrabold font-['Inter'] leading-[60px]">$329</div>
+    <div className="w-[282px] h-[51px] left-[48px] top-[226px] absolute">
+      <div className="w-[282px] h-[51px] left-0 top-0 absolute bg-violet-500 rounded-lg" />
+      <div className="w-[132.28px] left-[75.59px] top-[13px] absolute text-center text-slate-50 text-base font-bold font-['Inter'] leading-normal">Get Started</div>
     </div>
+    <div className="w-[520px] left-[426px] top-[48px] absolute text-gray-700 text-lg font-normal font-['Inter'] leading-7">Access these features when you get this pricing package for your business.</div>
+    <div className="w-[532px] h-7 left-[426px] top-[128px] absolute">
+      <div className="w-[490px] left-[42px] top-0 absolute text-gray-700 text-lg font-normal font-['Inter'] leading-7">International calling and messaging API</div>
+      <img className="w-[22px] h-[22px] left-0 top-[3px] absolute" src="https://via.placeholder.com/22x22" />
+    </div>
+    <div className="w-[532px] h-7 left-[426px] top-[172px] absolute">
+      <div className="w-[490px] left-[42px] top-0 absolute text-gray-700 text-lg font-normal font-['Inter'] leading-7">Additional phone numbers</div>
+      <img className="w-[22px] h-[22px] left-0 top-[3px] absolute" src="https://via.placeholder.com/22x22" />
+    </div>
+    <div className="w-[532px] h-7 left-[426px] top-[216px] absolute">
+      <div className="w-[490px] left-[42px] top-0 absolute text-gray-700 text-lg font-normal font-['Inter'] leading-7">Automated messages via Zapier</div>
+      <img className="w-[22px] h-[22px] left-0 top-[3px] absolute" src="https://via.placeholder.com/22x22" />
+    </div>
+    <div className="w-[532px] h-7 left-[426px] top-[260px] absolute">
+      <div className="w-[490px] left-[42px] top-0 absolute text-gray-700 text-lg font-normal font-['Inter'] leading-7">24/7 support and consulting</div>
+      <img className="w-[22px] h-[22px] left-0 top-[3px] absolute" src="https://via.placeholder.com/22x22" />
+    </div>
+  </div>
+  <div className="w-[906px] h-12 left-[267px] top-[649px] absolute">
+    <div className="w-10 h-10 left-0 top-[4px] absolute">
+    </div>
+    <div className="w-[220px] left-[64px] top-0 absolute text-gray-900 text-lg font-bold font-['Inter'] leading-normal">30 days money back Guarantee</div>
+    <div className="w-[284px] h-12 left-[309px] top-0 absolute justify-center items-center gap-6 inline-flex">
+      <div className="w-10 h-10 relative">
+      </div>
+      <div className="w-[220px] text-gray-900 text-lg font-bold font-['Inter'] leading-normal">No setup fees<br/>100% hassle-free</div>
+    </div>
+    <div className="w-72 h-12 left-[618px] top-0 absolute justify-center items-center gap-7 inline-flex">
+      <div className="w-10 h-[40.30px] relative">
+      </div>
+      <div className="w-[220px] text-gray-900 text-lg font-bold font-['Inter'] leading-normal">No monthly subscription<br/>Pay once and for all</div>
+    </div>
+  </div>
+</div>
+    // <div className=" grid grid-cols-3 bg-white font-bold shadow-2xl gap-2 p-10 m-10">
+    //   <div className=" bg-gray-300">
+    //     {" "}
+    //     <h2>Standard</h2>
+    //     <h3>Monthly Plan</h3>
+    //     <h1>$25</h1>{" "}
+    //   </div>
+    //   <div className=" bg-gray-300">
+    //     {" "}
+    //     <h2>Popular</h2>
+    //     <h3>Monthly Plan</h3>
+    //     <h1>$40</h1>{" "}
+    //   </div>
+    //   <div className=" bg-gray-300">
+    //     {" "}
+    //     <h2>Premium</h2>
+    //     <h3>Monthly Plan</h3>
+    //     <h1>$55</h1>{" "}
+    //   </div>
+    // </div>
+
+    // <div className="flex h-screen text-gray-800 bg-gray-200 justify-center">
+    //   <div className="flex flex-col p-10 my-40 bg-white shadow-2xl rounded-2xl gap-5 justify-center">
+    //     <button className=" bg-blue-500 font-bold text-white p-1 rounded-md w-80">
+    //       Login
+    //     </button>
+    //     <button className="font-bold p-1 rounded-md w-80 border border-cyan-500 flex-grow">
+    //       Create Account
+    //     </button>
+    //   </div>
+    // </div>
 
     // <div className="flex w-screen h-screen text-gray-800 bg-gray-200">
     //   <div className=" flex items-center px-6 py-4 bg-white shadow-2xl rounded-2xl gap-5 m-auto">
